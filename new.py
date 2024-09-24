@@ -50,3 +50,6 @@ def display_pdb(contents):
 # 애플리케이션 실행
 if __name__ == '__main__':
     app.run_server(debug=True)
+
+TypeError: The `dash_bio.NglMoleculeViewer` component (version 1.0.2) with the ID "ngl-viewer" received an unexpected keyword argument: `modelData`
+Allowed arguments: data, downloadImage, height, id, imageParameters, loading_state, molStyles, pdbString, stageParameters, width
